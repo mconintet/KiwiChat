@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4312D7F71BE1095300A0C7FC /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312D7F61BE1095300A0C7FC /* NSString+Validation.m */; };
+		4312D7FA1BE1174100A0C7FC /* NSMutableDictionary+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312D7F91BE1174100A0C7FC /* NSMutableDictionary+Path.m */; };
+		4312D8441BE15EFF00A0C7FC /* moitoast.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4312D8431BE15EFF00A0C7FC /* moitoast.ttf */; };
+		4312D8741BE2727400A0C7FC /* AddBuddyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312D8731BE2727400A0C7FC /* AddBuddyViewController.m */; };
+		4312D8771BE27E7E00A0C7FC /* UITableView+ScrollToTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312D8761BE27E7E00A0C7FC /* UITableView+ScrollToTop.m */; };
+		4312D87A1BE2847600A0C7FC /* BuddyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312D8791BE2847600A0C7FC /* BuddyModel.m */; };
+		4312D87D1BE2B65A00A0C7FC /* UserBuddyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4312D87C1BE2B65A00A0C7FC /* UserBuddyModel.m */; };
+		4315442E1BD683EA007EA6AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4315442D1BD683EA007EA6AA /* main.m */; };
+		431544311BD683EA007EA6AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 431544301BD683EA007EA6AA /* AppDelegate.m */; };
+		431544391BD683EA007EA6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431544381BD683EA007EA6AA /* Assets.xcassets */; };
+		431544441BD68410007EA6AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 431544431BD68410007EA6AA /* Default-568h@2x.png */; };
+		43232BB61BDFB91A007C4AA2 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43232BB51BDFB91A007C4AA2 /* UserModel.m */; };
+		43232BB91BDFCC35007C4AA2 /* MessageRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 43232BB81BDFCC35007C4AA2 /* MessageRouter.m */; };
+		43232BC01BDFF53C007C4AA2 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43232BBF1BDFF53C007C4AA2 /* MainTabBarViewController.m */; };
+		43232BC31BDFF60B007C4AA2 /* ChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43232BC21BDFF60B007C4AA2 /* ChatsViewController.m */; };
+		43232BC61BDFF618007C4AA2 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43232BC51BDFF618007C4AA2 /* ContactsViewController.m */; };
+		43232BC91BDFF626007C4AA2 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43232BC81BDFF626007C4AA2 /* SettingsViewController.m */; };
+		4390CC7A1BDFFAE50058064F /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390CC791BDFFAE50058064F /* UIView+Snapshot.m */; };
+		4390CC821BE004CF0058064F /* ChatsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390CC811BE004CF0058064F /* ChatsTableViewCell.m */; };
+		4390CC851BE0A0080058064F /* ContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4390CC841BE0A0080058064F /* ContactsTableViewCell.m */; };
+		4390CC8C1BE0AEEB0058064F /* font_icon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4390CC8B1BE0AEEB0058064F /* font_icon.ttf */; };
+		43A3A2E51BD8E7E100EE4E40 /* KiwiChat.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 43A3A2E41BD8E7E100EE4E40 /* KiwiChat.sqlite */; };
+		43A8745D1BD6863F00BA8D1D /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8745C1BD6863F00BA8D1D /* libsqlite3.0.tbd */; };
+		43A874731BD68E5A00BA8D1D /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A874601BD68E5A00BA8D1D /* ChatViewController.m */; };
+		43A874751BD68E5A00BA8D1D /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A874651BD68E5A00BA8D1D /* MessageModel.m */; };
+		43A874761BD68E5A00BA8D1D /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A874671BD68E5A00BA8D1D /* Model.m */; };
+		43A874781BD68E5A00BA8D1D /* ChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8746C1BD68E5A00BA8D1D /* ChatView.m */; };
+		43A874791BD68E5A00BA8D1D /* MsgInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8746E1BD68E5A00BA8D1D /* MsgInputView.m */; };
+		43A8747A1BD68E5A00BA8D1D /* MsgTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A874701BD68E5A00BA8D1D /* MsgTableView.m */; };
+		43A8747B1BD68E5A00BA8D1D /* MsgTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A874721BD68E5A00BA8D1D /* MsgTableViewCell.m */; };
+		43B3FCC11BE48CBC0092B4A7 /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B3FCC01BE48CBC0092B4A7 /* ChatModel.m */; };
+		43D4EDFB1BDE0DAE002BFCD2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D4EDFA1BDE0DAE002BFCD2 /* LoginViewController.m */; };
+		43D4EDFF1BDE3044002BFCD2 /* UIButton+SetBackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D4EDFE1BDE3044002BFCD2 /* UIButton+SetBackgroundColor.m */; };
+		43D4EE021BDE31D2002BFCD2 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D4EE011BDE31D2002BFCD2 /* UIImage+ImageWithColor.m */; };
+		43D4EE051BDE3958002BFCD2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D4EE041BDE3958002BFCD2 /* RegisterViewController.m */; };
+		9DF0F65293F6C0C0AB63F47F /* libPods-KiwiChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C11603ED6D9663C6C7DDB10 /* libPods-KiwiChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		055C7F4B862ED40FA193F2EB /* Pods-KiwiChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiChat/Pods-KiwiChat.release.xcconfig"; sourceTree = "<group>"; };
+		1A27758A5F9804BE0748E464 /* Pods-KiwiChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KiwiChat/Pods-KiwiChat.debug.xcconfig"; sourceTree = "<group>"; };
+		4312D7F51BE1095300A0C7FC /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSString+Validation.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4312D7F61BE1095300A0C7FC /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		4312D7F81BE1174100A0C7FC /* NSMutableDictionary+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSMutableDictionary+Path.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4312D7F91BE1174100A0C7FC /* NSMutableDictionary+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSMutableDictionary+Path.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4312D8431BE15EFF00A0C7FC /* moitoast.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = moitoast.ttf; sourceTree = "<group>"; };
+		4312D8721BE2727400A0C7FC /* AddBuddyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBuddyViewController.h; sourceTree = "<group>"; };
+		4312D8731BE2727400A0C7FC /* AddBuddyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBuddyViewController.m; sourceTree = "<group>"; };
+		4312D8751BE27E7E00A0C7FC /* UITableView+ScrollToTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+ScrollToTop.h"; sourceTree = "<group>"; };
+		4312D8761BE27E7E00A0C7FC /* UITableView+ScrollToTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ScrollToTop.m"; sourceTree = "<group>"; };
+		4312D8781BE2847600A0C7FC /* BuddyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuddyModel.h; sourceTree = "<group>"; };
+		4312D8791BE2847600A0C7FC /* BuddyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuddyModel.m; sourceTree = "<group>"; };
+		4312D87B1BE2B65A00A0C7FC /* UserBuddyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBuddyModel.h; sourceTree = "<group>"; };
+		4312D87C1BE2B65A00A0C7FC /* UserBuddyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBuddyModel.m; sourceTree = "<group>"; };
+		431544291BD683EA007EA6AA /* KiwiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiwiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4315442D1BD683EA007EA6AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4315442F1BD683EA007EA6AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		431544301BD683EA007EA6AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		431544381BD683EA007EA6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4315443D1BD683EA007EA6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431544431BD68410007EA6AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43232BB41BDFB91A007C4AA2 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		43232BB51BDFB91A007C4AA2 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		43232BB71BDFCC35007C4AA2 /* MessageRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MessageRouter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		43232BB81BDFCC35007C4AA2 /* MessageRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MessageRouter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		43232BBE1BDFF53C007C4AA2 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainTabBarViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		43232BBF1BDFF53C007C4AA2 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainTabBarViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		43232BC11BDFF60B007C4AA2 /* ChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ChatsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		43232BC21BDFF60B007C4AA2 /* ChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChatsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		43232BC41BDFF618007C4AA2 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ContactsViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		43232BC51BDFF618007C4AA2 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ContactsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		43232BC71BDFF626007C4AA2 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		43232BC81BDFF626007C4AA2 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		4390CC781BDFFAE50058064F /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		4390CC791BDFFAE50058064F /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		4390CC801BE004CF0058064F /* ChatsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ChatsTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4390CC811BE004CF0058064F /* ChatsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChatsTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4390CC831BE0A0080058064F /* ContactsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ContactsTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4390CC841BE0A0080058064F /* ContactsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ContactsTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4390CC881BE0AC4B0058064F /* font_icon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = font_icon.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		4390CC8B1BE0AEEB0058064F /* font_icon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font_icon.ttf; sourceTree = "<group>"; };
+		43A3A2E41BD8E7E100EE4E40 /* KiwiChat.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = KiwiChat.sqlite; sourceTree = "<group>"; };
+		43A8745A1BD6862D00BA8D1D /* libsqlite3-objc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsqlite3-objc.a"; path = "Pods/../build/Debug-iphoneos/libsqlite3-objc.a"; sourceTree = "<group>"; };
+		43A8745C1BD6863F00BA8D1D /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		43A8745F1BD68E5A00BA8D1D /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		43A874601BD68E5A00BA8D1D /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		43A874641BD68E5A00BA8D1D /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		43A874651BD68E5A00BA8D1D /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		43A874661BD68E5A00BA8D1D /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		43A874671BD68E5A00BA8D1D /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		43A8746B1BD68E5A00BA8D1D /* ChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatView.h; sourceTree = "<group>"; };
+		43A8746C1BD68E5A00BA8D1D /* ChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatView.m; sourceTree = "<group>"; };
+		43A8746D1BD68E5A00BA8D1D /* MsgInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgInputView.h; sourceTree = "<group>"; };
+		43A8746E1BD68E5A00BA8D1D /* MsgInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgInputView.m; sourceTree = "<group>"; };
+		43A8746F1BD68E5A00BA8D1D /* MsgTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTableView.h; sourceTree = "<group>"; };
+		43A874701BD68E5A00BA8D1D /* MsgTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTableView.m; sourceTree = "<group>"; };
+		43A874711BD68E5A00BA8D1D /* MsgTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTableViewCell.h; sourceTree = "<group>"; };
+		43A874721BD68E5A00BA8D1D /* MsgTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTableViewCell.m; sourceTree = "<group>"; };
+		43A8747C1BD68E6500BA8D1D /* macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macro.h; sourceTree = "<group>"; };
+		43B3FCBF1BE48CBC0092B4A7 /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		43B3FCC01BE48CBC0092B4A7 /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		43D4EDF91BDE0DAE002BFCD2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LoginViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		43D4EDFA1BDE0DAE002BFCD2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		43D4EDFD1BDE3044002BFCD2 /* UIButton+SetBackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SetBackgroundColor.h"; sourceTree = "<group>"; };
+		43D4EDFE1BDE3044002BFCD2 /* UIButton+SetBackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SetBackgroundColor.m"; sourceTree = "<group>"; };
+		43D4EE001BDE31D2002BFCD2 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
+		43D4EE011BDE31D2002BFCD2 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		43D4EE031BDE3958002BFCD2 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		43D4EE041BDE3958002BFCD2 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		7C11603ED6D9663C6C7DDB10 /* libPods-KiwiChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431544261BD683EA007EA6AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A8745D1BD6863F00BA8D1D /* libsqlite3.0.tbd in Frameworks */,
+				9DF0F65293F6C0C0AB63F47F /* libPods-KiwiChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431544201BD683EA007EA6AA = {
+			isa = PBXGroup;
+			children = (
+				4312D8431BE15EFF00A0C7FC /* moitoast.ttf */,
+				4390CC8B1BE0AEEB0058064F /* font_icon.ttf */,
+				43A3A2E41BD8E7E100EE4E40 /* KiwiChat.sqlite */,
+				431544431BD68410007EA6AA /* Default-568h@2x.png */,
+				4315442B1BD683EA007EA6AA /* KiwiChat */,
+				4315442A1BD683EA007EA6AA /* Products */,
+				DABA7D136B7F8AAD51925DD4 /* Pods */,
+				B50C2B57901984EF5CC5210A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4315442A1BD683EA007EA6AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431544291BD683EA007EA6AA /* KiwiChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4315442B1BD683EA007EA6AA /* KiwiChat */ = {
+			isa = PBXGroup;
+			children = (
+				43A8745E1BD68E5A00BA8D1D /* Controllers */,
+				43A874631BD68E5A00BA8D1D /* Models */,
+				43A874681BD68E5A00BA8D1D /* Views */,
+				43D4EDFC1BDE3044002BFCD2 /* Utils */,
+				4315442F1BD683EA007EA6AA /* AppDelegate.h */,
+				431544301BD683EA007EA6AA /* AppDelegate.m */,
+				431544381BD683EA007EA6AA /* Assets.xcassets */,
+				4315443D1BD683EA007EA6AA /* Info.plist */,
+				4315442C1BD683EA007EA6AA /* Supporting Files */,
+			);
+			path = KiwiChat;
+			sourceTree = "<group>";
+		};
+		4315442C1BD683EA007EA6AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A8747C1BD68E6500BA8D1D /* macro.h */,
+				4315442D1BD683EA007EA6AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43A8745E1BD68E5A00BA8D1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				43232BBE1BDFF53C007C4AA2 /* MainTabBarViewController.h */,
+				43232BBF1BDFF53C007C4AA2 /* MainTabBarViewController.m */,
+				43232BC11BDFF60B007C4AA2 /* ChatsViewController.h */,
+				43232BC21BDFF60B007C4AA2 /* ChatsViewController.m */,
+				43232BC41BDFF618007C4AA2 /* ContactsViewController.h */,
+				43232BC51BDFF618007C4AA2 /* ContactsViewController.m */,
+				43232BC71BDFF626007C4AA2 /* SettingsViewController.h */,
+				43232BC81BDFF626007C4AA2 /* SettingsViewController.m */,
+				43D4EDF91BDE0DAE002BFCD2 /* LoginViewController.h */,
+				43D4EDFA1BDE0DAE002BFCD2 /* LoginViewController.m */,
+				43D4EE031BDE3958002BFCD2 /* RegisterViewController.h */,
+				43D4EE041BDE3958002BFCD2 /* RegisterViewController.m */,
+				43A8745F1BD68E5A00BA8D1D /* ChatViewController.h */,
+				43A874601BD68E5A00BA8D1D /* ChatViewController.m */,
+				4312D8721BE2727400A0C7FC /* AddBuddyViewController.h */,
+				4312D8731BE2727400A0C7FC /* AddBuddyViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		43A874631BD68E5A00BA8D1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43A874661BD68E5A00BA8D1D /* Model.h */,
+				43A874671BD68E5A00BA8D1D /* Model.m */,
+				43A874641BD68E5A00BA8D1D /* MessageModel.h */,
+				43A874651BD68E5A00BA8D1D /* MessageModel.m */,
+				43232BB41BDFB91A007C4AA2 /* UserModel.h */,
+				43232BB51BDFB91A007C4AA2 /* UserModel.m */,
+				4312D8781BE2847600A0C7FC /* BuddyModel.h */,
+				4312D8791BE2847600A0C7FC /* BuddyModel.m */,
+				4312D87B1BE2B65A00A0C7FC /* UserBuddyModel.h */,
+				4312D87C1BE2B65A00A0C7FC /* UserBuddyModel.m */,
+				43B3FCBF1BE48CBC0092B4A7 /* ChatModel.h */,
+				43B3FCC01BE48CBC0092B4A7 /* ChatModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		43A874681BD68E5A00BA8D1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43A8746B1BD68E5A00BA8D1D /* ChatView.h */,
+				43A8746C1BD68E5A00BA8D1D /* ChatView.m */,
+				43A8746D1BD68E5A00BA8D1D /* MsgInputView.h */,
+				43A8746E1BD68E5A00BA8D1D /* MsgInputView.m */,
+				43A8746F1BD68E5A00BA8D1D /* MsgTableView.h */,
+				43A874701BD68E5A00BA8D1D /* MsgTableView.m */,
+				43A874711BD68E5A00BA8D1D /* MsgTableViewCell.h */,
+				43A874721BD68E5A00BA8D1D /* MsgTableViewCell.m */,
+				4390CC801BE004CF0058064F /* ChatsTableViewCell.h */,
+				4390CC811BE004CF0058064F /* ChatsTableViewCell.m */,
+				4390CC831BE0A0080058064F /* ContactsTableViewCell.h */,
+				4390CC841BE0A0080058064F /* ContactsTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43D4EDFC1BDE3044002BFCD2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4390CC781BDFFAE50058064F /* UIView+Snapshot.h */,
+				4390CC791BDFFAE50058064F /* UIView+Snapshot.m */,
+				43D4EE001BDE31D2002BFCD2 /* UIImage+ImageWithColor.h */,
+				43D4EE011BDE31D2002BFCD2 /* UIImage+ImageWithColor.m */,
+				43D4EDFD1BDE3044002BFCD2 /* UIButton+SetBackgroundColor.h */,
+				43D4EDFE1BDE3044002BFCD2 /* UIButton+SetBackgroundColor.m */,
+				43232BB71BDFCC35007C4AA2 /* MessageRouter.h */,
+				43232BB81BDFCC35007C4AA2 /* MessageRouter.m */,
+				4390CC881BE0AC4B0058064F /* font_icon.h */,
+				4312D7F51BE1095300A0C7FC /* NSString+Validation.h */,
+				4312D7F61BE1095300A0C7FC /* NSString+Validation.m */,
+				4312D7F81BE1174100A0C7FC /* NSMutableDictionary+Path.h */,
+				4312D7F91BE1174100A0C7FC /* NSMutableDictionary+Path.m */,
+				4312D8751BE27E7E00A0C7FC /* UITableView+ScrollToTop.h */,
+				4312D8761BE27E7E00A0C7FC /* UITableView+ScrollToTop.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B50C2B57901984EF5CC5210A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A8745C1BD6863F00BA8D1D /* libsqlite3.0.tbd */,
+				43A8745A1BD6862D00BA8D1D /* libsqlite3-objc.a */,
+				7C11603ED6D9663C6C7DDB10 /* libPods-KiwiChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DABA7D136B7F8AAD51925DD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A27758A5F9804BE0748E464 /* Pods-KiwiChat.debug.xcconfig */,
+				055C7F4B862ED40FA193F2EB /* Pods-KiwiChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431544281BD683EA007EA6AA /* KiwiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431544401BD683EA007EA6AA /* Build configuration list for PBXNativeTarget "KiwiChat" */;
+			buildPhases = (
+				00C4339A9F869E52B179F80F /* Check Pods Manifest.lock */,
+				431544251BD683EA007EA6AA /* Sources */,
+				431544261BD683EA007EA6AA /* Frameworks */,
+				431544271BD683EA007EA6AA /* Resources */,
+				9722D16E4B3DD416E34A3CF8 /* Embed Pods Frameworks */,
+				AF041766DA10DCAEFAEC5B64 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiwiChat;
+			productName = KiwiChat;
+			productReference = 431544291BD683EA007EA6AA /* KiwiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431544211BD683EA007EA6AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mconintet;
+				TargetAttributes = {
+					431544281BD683EA007EA6AA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 32STJ77AY3;
+					};
+				};
+			};
+			buildConfigurationList = 431544241BD683EA007EA6AA /* Build configuration list for PBXProject "KiwiChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 431544201BD683EA007EA6AA;
+			productRefGroup = 4315442A1BD683EA007EA6AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431544281BD683EA007EA6AA /* KiwiChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		431544271BD683EA007EA6AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4390CC8C1BE0AEEB0058064F /* font_icon.ttf in Resources */,
+				431544391BD683EA007EA6AA /* Assets.xcassets in Resources */,
+				4312D8441BE15EFF00A0C7FC /* moitoast.ttf in Resources */,
+				431544441BD68410007EA6AA /* Default-568h@2x.png in Resources */,
+				43A3A2E51BD8E7E100EE4E40 /* KiwiChat.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C4339A9F869E52B179F80F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9722D16E4B3DD416E34A3CF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiChat/Pods-KiwiChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF041766DA10DCAEFAEC5B64 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KiwiChat/Pods-KiwiChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431544251BD683EA007EA6AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43232BB91BDFCC35007C4AA2 /* MessageRouter.m in Sources */,
+				43A874781BD68E5A00BA8D1D /* ChatView.m in Sources */,
+				43A874791BD68E5A00BA8D1D /* MsgInputView.m in Sources */,
+				43232BC61BDFF618007C4AA2 /* ContactsViewController.m in Sources */,
+				43D4EE021BDE31D2002BFCD2 /* UIImage+ImageWithColor.m in Sources */,
+				43A8747B1BD68E5A00BA8D1D /* MsgTableViewCell.m in Sources */,
+				4312D7FA1BE1174100A0C7FC /* NSMutableDictionary+Path.m in Sources */,
+				4312D87D1BE2B65A00A0C7FC /* UserBuddyModel.m in Sources */,
+				43232BC91BDFF626007C4AA2 /* SettingsViewController.m in Sources */,
+				4312D87A1BE2847600A0C7FC /* BuddyModel.m in Sources */,
+				4390CC821BE004CF0058064F /* ChatsTableViewCell.m in Sources */,
+				43D4EDFF1BDE3044002BFCD2 /* UIButton+SetBackgroundColor.m in Sources */,
+				43232BC01BDFF53C007C4AA2 /* MainTabBarViewController.m in Sources */,
+				43B3FCC11BE48CBC0092B4A7 /* ChatModel.m in Sources */,
+				431544311BD683EA007EA6AA /* AppDelegate.m in Sources */,
+				43A874731BD68E5A00BA8D1D /* ChatViewController.m in Sources */,
+				4390CC851BE0A0080058064F /* ContactsTableViewCell.m in Sources */,
+				4315442E1BD683EA007EA6AA /* main.m in Sources */,
+				4390CC7A1BDFFAE50058064F /* UIView+Snapshot.m in Sources */,
+				43A874761BD68E5A00BA8D1D /* Model.m in Sources */,
+				4312D8741BE2727400A0C7FC /* AddBuddyViewController.m in Sources */,
+				43232BC31BDFF60B007C4AA2 /* ChatsViewController.m in Sources */,
+				4312D8771BE27E7E00A0C7FC /* UITableView+ScrollToTop.m in Sources */,
+				4312D7F71BE1095300A0C7FC /* NSString+Validation.m in Sources */,
+				43A8747A1BD68E5A00BA8D1D /* MsgTableView.m in Sources */,
+				43232BB61BDFB91A007C4AA2 /* UserModel.m in Sources */,
+				43D4EE051BDE3958002BFCD2 /* RegisterViewController.m in Sources */,
+				43D4EDFB1BDE0DAE002BFCD2 /* LoginViewController.m in Sources */,
+				43A874751BD68E5A00BA8D1D /* MessageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4315443E1BD683EA007EA6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4315443F1BD683EA007EA6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		431544411BD683EA007EA6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A27758A5F9804BE0748E464 /* Pods-KiwiChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KiwiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mconintet.KiwiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		431544421BD683EA007EA6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055C7F4B862ED40FA193F2EB /* Pods-KiwiChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KiwiChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mconintet.KiwiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431544241BD683EA007EA6AA /* Build configuration list for PBXProject "KiwiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4315443E1BD683EA007EA6AA /* Debug */,
+				4315443F1BD683EA007EA6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431544401BD683EA007EA6AA /* Build configuration list for PBXNativeTarget "KiwiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431544411BD683EA007EA6AA /* Debug */,
+				431544421BD683EA007EA6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431544211BD683EA007EA6AA /* Project object */;
+}

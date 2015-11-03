@@ -1,0 +1,59 @@
+PODS:
+  - kiwi (0.0.1)
+  - MOINetworkState (0.0.1)
+  - MOIRefreshControl (0.0.1)
+  - MOITextView (0.0.1)
+  - MOIToast (0.0.1)
+  - sqlite3-objc (0.0.1)
+
+DEPENDENCIES:
+  - kiwi (from `https://github.com/mconintet/kiwi-objc.git`)
+  - MOINetworkState (from `https://github.com/mconintet/MOINetworkState.git`)
+  - MOIRefreshControl (from `https://github.com/mconintet/MOIRefreshControl.git`)
+  - MOITextView (from `https://github.com/mconintet/MOITextView.git`)
+  - MOIToast (from `https://github.com/mconintet/MOIToast.git`)
+  - sqlite3-objc (from `https://github.com/mconintet/sqlite3-objc.git`)
+
+EXTERNAL SOURCES:
+  kiwi:
+    :git: https://github.com/mconintet/kiwi-objc.git
+  MOINetworkState:
+    :git: https://github.com/mconintet/MOINetworkState.git
+  MOIRefreshControl:
+    :git: https://github.com/mconintet/MOIRefreshControl.git
+  MOITextView:
+    :git: https://github.com/mconintet/MOITextView.git
+  MOIToast:
+    :git: https://github.com/mconintet/MOIToast.git
+  sqlite3-objc:
+    :git: https://github.com/mconintet/sqlite3-objc.git
+
+CHECKOUT OPTIONS:
+  kiwi:
+    :commit: 0ee8d38df94ad98084ef7c63a860ad831a198c8a
+    :git: https://github.com/mconintet/kiwi-objc.git
+  MOINetworkState:
+    :commit: cc4beb6083ad5d55402a2b792e8a684ee82cccef
+    :git: https://github.com/mconintet/MOINetworkState.git
+  MOIRefreshControl:
+    :commit: 90fc9e9a8db6fb9c64b39bb42cf410de9d5a5a7d
+    :git: https://github.com/mconintet/MOIRefreshControl.git
+  MOITextView:
+    :commit: 227f655ede1b670e144914ab38bcb38ece422309
+    :git: https://github.com/mconintet/MOITextView.git
+  MOIToast:
+    :commit: 382c50802dd559b2227a078300c85d3660e13574
+    :git: https://github.com/mconintet/MOIToast.git
+  sqlite3-objc:
+    :commit: 1e20399ec345654eddfc7c121b483765d0810e6c
+    :git: https://github.com/mconintet/sqlite3-objc.git
+
+SPEC CHECKSUMS:
+  kiwi: a99a0d074ab1a6a4ee4e1dbdab82ff81eac1c065
+  MOINetworkState: 88653b92c03d6d67dc82d07a12c37551acb453ba
+  MOIRefreshControl: 5aaac239f5ba6775bba822c4e76c842fb67b3252
+  MOITextView: 8f3cb9ef31a4922f7760d87c9dc5d7dbdfd109cf
+  MOIToast: 51bdbde199d0604b9b69b9eb09931b68add0a843
+  sqlite3-objc: 9ba83b5c2d5db73ded911193fbad61456cb36545
+
+COCOAPODS: 0.39.0

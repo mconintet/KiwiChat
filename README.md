@@ -20,4 +20,4 @@ You can run this project as any other Xcode project - just click the Bild&Run bu
 ## Screenshot
 ![](https://raw.githubusercontent.com/mconintet/KiwiChat/master/screenshot.gif)
 
-If you have an interest in code running in Browser, you can get them from [KiwiChat-Browser](https://github.com/mconintet/KiwiChat-Browser).
+If you have an interest in code running in Browser, you can get them from [KiwiChat-Browser](https://github.com/mconintet/KiwiChat-Browser). Also, if you think this project is not too bad please give it a star :)
